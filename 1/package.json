@@ -2,7 +2,7 @@
   "name": "1",
   "version": "1.0.0",
   "description": "",
-  "main": "hello.js",
+  "main": "src/index.ts",
   "dependencies": {},
   "devDependencies": {
     "@types/node": "^14.14.41",
@@ -10,6 +10,8 @@
     "typescript": "^4.2.4"
   },
   "scripts": {
+    "dev": "npx ts-node src",
+    "build": "tsc && node dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
