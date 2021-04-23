@@ -12,3 +12,9 @@ console.log(persons)
 const name: string = '태양'
 const age: number = 32
 console.log(`제 이름은 ${name}이고 ${age}세 입니다.`)
+
+let man: object = {
+    name: "jack",
+    age: 32
+};
+(<{name: string}>man).name
